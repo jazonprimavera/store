@@ -1,6 +1,6 @@
 
 <?php
-$json = file_get_contents('https://devicedata.herokuapp.com//json.php'); 
+$json = file_get_contents('/json.php'); 
 
 $data = json_decode($json,true);
 $list = $data['ID'];
