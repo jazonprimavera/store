@@ -5,7 +5,7 @@ $json = file_get_contents('https://jazon.herokuapp.com//json.php');
 $data = json_decode($json,true);
 $list = $data['bag'];
 ?>
-<h1> Bags </h1>
+<h1> PRODUCTS </h1>
 <?php
 foreach($list as $value){
     ?>
