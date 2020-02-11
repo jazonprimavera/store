@@ -3,7 +3,7 @@
 $json = file_get_contents('https://devicedata.herokuapp.com//json.php'); 
 
 $data = json_decode($json,true);
-$list = $data['car'];
+$list = $data['ID'];
 ?>
 <h1> CARS </h1>
 <?php
